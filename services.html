@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Solutions - Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { brand: { blue: '#1E40AF', light: '#3B82F6', dark: '#1E293B' } }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2 text-2xl font-bold text-brand-blue">
+                <i class="fa-solid fa-cubes"></i> <span>Business Solutions</span>
+            </a>
+            <div class="hidden lg:flex items-center space-x-8">
+                <a href="index.html" class="text-slate-600 hover:text-brand-blue transition-all">Home</a>
+                <a href="about.html" class="text-slate-600 hover:text-brand-blue transition-all">About us</a>
+                <a href="services.html" class="font-semibold text-brand-blue border-b-2 border-brand-blue pb-1">Services</a>
+                <a href="solutions.html" class="text-slate-600 hover:text-brand-blue transition-all">Solutions</a>
+                <a href="support.html" class="text-slate-600 hover:text-brand-blue transition-all">Support</a>
+                <a href="blog.html" class="text-slate-600 hover:text-brand-blue transition-all">Blog</a>
+                <a href="contact.html" class="text-slate-600 hover:text-brand-blue transition-all">Contact</a>
+            </div>
+            <a href="contact.html" class="bg-brand-blue hover:bg-blue-800 text-white px-5 py-2.5 rounded-full font-medium shadow-md transition-all">Get Started</a>
+        </div>
+    </nav>
+
+    <main class="flex-grow py-20">
+        <div class="max-w-5xl mx-auto px-4 md:px-6 bg-white p-10 md:p-16 rounded-2xl shadow-sm border border-slate-100 space-y-12">
+            <div class="text-center space-y-4">
+                <h1 class="text-4xl font-extrabold tracking-tight text-brand-dark">Professional Capabilities</h1>
+                <p class="text-slate-500 max-w-xl mx-auto text-sm leading-relaxed">High quality business, management and technical operations consulting engineered for scaling companies.</p>
+            </div>
+
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1100&q=80" alt="Consultation workspace" class="w-full h-80 object-cover rounded-2xl shadow-md">
+
+            <div class="space-y-10">
+                <div class="flex items-start space-x-6 border-b border-slate-100 pb-8">
+                    <div class="w-10 h-10 bg-indigo-50 text-brand-blue flex-shrink-0 rounded-full flex items-center justify-center font-bold">1</div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-slate-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Nunc ut turpis vitae purus cursus malesuada at sed lacus. Integer pretium luctus felis, a dictum dui malesuada in.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-6 border-b border-slate-100 pb-8">
+                    <div class="w-10 h-10 bg-blue-50 text-blue-600 flex-shrink-0 rounded-full flex items-center justify-center font-bold">2</div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-slate-800">Praesent nunc erat, mollis sed varius id, blandit ut nisi.</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Aliquam in ipsum purus in dignissim turpis. Nullam a adipiscing felis. Etiam a egestas dui. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-6 border-b border-slate-100 pb-8">
+                    <div class="w-10 h-10 bg-emerald-50 text-emerald-600 flex-shrink-0 rounded-full flex items-center justify-center font-bold">3</div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-slate-800">Nunc eu neque vel velit fringilla placerat at eu nulla.</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Sed tempus metus a lectus tristique in malesuada dolor mollis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl space-y-4">
+                <h4 class="font-bold text-slate-800 text-lg">Terms and Conditions of Service Templates</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Our baseline templates are created with modern style and inspiration, checked for overall quality and originality, and are fully clean coded. You can use them for business or modify them seamlessly. Need any guidance? Visit our community forum.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-brand-dark text-slate-400 py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
+            <div class="space-y-4">
+                <h3 class="text-white text-lg font-bold">Contact Us</h3>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex items-start space-x-3"><i class="fa-solid fa-envelope text-slate-500 mt-1"></i><span>company@email.com</span></li>
+                    <li class="flex items-start space-x-3"><i class="fa-solid fa-location-dot text-slate-500 mt-1"></i><span>189 Lorem Ipsum Pellentesque, Mauris Etiam ut velit odio Proin id nisi enim 0000</span></li>
+                    <li class="flex items-start space-x-3"><i class="fa-solid fa-phone text-slate-500 mt-1"></i><span>117-683-9187-000</span></li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h3 class="text-white text-lg font-bold">Get Updated</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="blog.html" class="hover:text-white transition-all">Blog</a></li>
+                    <li><a href="http://facebook.com/freewebsitetemplates" target="_blank" class="hover:text-white transition-all">Facebook</a></li>
+                    <li><a href="http://twitter.com/fwtemplates" target="_blank" class="hover:text-white transition-all">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-2 bg-slate-900/50 p-6 rounded-2xl border border-slate-800 space-y-4">
+                <div>
+                    <h3 class="text-white text-lg font-bold">Sign-up for Newsletter</h3>
+                    <p class="text-xs text-slate-500 mt-1">In sollicitudin vulputate metus, sed commodo diam elementum nec.</p>
+                </div>
+                <form action="#" method="POST" class="flex flex-col sm:flex-row gap-3">
+                    <input type="text" placeholder="Name" class="bg-slate-800 border border-slate-700 text-white text-sm rounded-xl px-4 py-2.5 w-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="email" placeholder="Enter Email Address" class="bg-slate-800 border border-slate-700 text-white text-sm rounded-xl px-4 py-2.5 w-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button type="submit" class="bg-brand-blue hover:bg-blue-700 text-white font-medium px-5 py-2.5 rounded-xl transition-all whitespace-nowrap">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 md:px-6 mt-12 pt-6 border-t border-slate-800/60 text-xs text-slate-500 text-center">
+            &copy; Copyright 2011. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
